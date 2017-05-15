@@ -2,7 +2,7 @@
 - name: AspNetDotNetCoreDemo-git
   type: git
   source:
-    uri: https://github.com/JPGilbert82/AspNetDotNetCoreDemo/
+    uri: git@github.com:JPGilbert82/AspNetDotNetCoreDemo/
     branch: master
 
 jobs:
