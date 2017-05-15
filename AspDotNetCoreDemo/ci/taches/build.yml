@@ -11,5 +11,4 @@ outputs:
 - name: AspNetDotNetCoreDemo-app
 
 run:
-  path: sh
-  args: ["AspDotNetCoreDemo/ci/build.sh"]
+  path: AspNetDotNetCoreDemo/ci/scripts/build.sh
