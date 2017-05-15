@@ -1,5 +1,5 @@
 ﻿#!/bin/bash
-cd AspDotNetCoreDemo
+cd AspDotNetCoreDemohuuu
 
 dotnet restore
 dotnet build
