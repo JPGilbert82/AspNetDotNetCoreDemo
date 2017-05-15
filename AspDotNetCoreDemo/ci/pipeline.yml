@@ -1,0 +1,14 @@
+﻿resources:
+- name: AspNetDotNetCoreDemo-git
+  type: git
+  source:
+    uri: https://github.com/JPGilbert82/AspNetDotNetCoreDemo
+    branch: master
+
+jobs:
+- name: AspNetDotNetCoreDemo-app
+  plan:
+  - get: AspNetDotNetCoreDemo-git
+    trigger: true
+  - task: tests
+    file: AspDotNetCoreDemo/build.yml

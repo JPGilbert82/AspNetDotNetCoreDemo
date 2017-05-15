@@ -1,0 +1,13 @@
+﻿platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: microsoft/dotnet
+
+inputs:
+- name: AspNetDotNetCoreDemo-Git
+
+run:
+  path: sh
+  args: ["AspDotNetCoreDemo/ci/build.sh"]
